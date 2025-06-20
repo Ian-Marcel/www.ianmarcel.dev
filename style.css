@@ -1,0 +1,43 @@
+/* CSS */
+/* IMPORTS */
+@import url("assets/css/basic structure.css");
+@import url("assets/css/pallets.css");
+
+/* YOUR CSS */
+body {
+	background-color: #0C0C0C;
+}
+
+header {
+	display: flex;
+	width: 100vw;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid 1px;
+}
+header h2 {
+	text-align: center;
+}
+main {
+	width: 100vw;
+	height: 80vh;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+main video {
+	border-radius: 10px;
+}
+footer {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-links {
+	width: 40vw;
+	display: flex;
+	justify-content: space-evenly;
+}
