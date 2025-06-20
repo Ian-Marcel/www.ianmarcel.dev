@@ -10,6 +10,18 @@
 	line-height: 1.5;
 }
 
+a {
+	text-decoration: none;
+	color: #007AFF;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.35;
+	padding: 10px 15px;
+}
+
 /*
 
 h1 {
@@ -41,15 +53,3 @@ p, span{
 }
 
 */
-
-a {
-	text-decoration: none;
-	color: #007AFF;
-}
-
-button {
-	border: none;
-	cursor: pointer;
-	transition: background-color 0.35;
-	padding: 10px 15px;
-}

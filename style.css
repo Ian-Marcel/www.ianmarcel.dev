@@ -11,7 +11,7 @@ body {
 header {
 	display: flex;
 	width: 100vw;
-	height: 50px;
+	height: 10vh;
 	justify-content: center;
 	align-items: center;
 	border-bottom: solid 1px;
@@ -26,7 +26,7 @@ main {
 	justify-items: center;
 	align-items: center;
 }
-main video {
+main img {
 	border-radius: 10px;
 }
 footer {
@@ -38,6 +38,14 @@ footer {
 }
 .footer-links {
 	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #f9f9f9;
+}
+.links {
+	width: 20vw;
 	display: flex;
 	justify-content: space-evenly;
 }
