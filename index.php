@@ -14,7 +14,7 @@
     <h2>🦺 Site em contrução. Volte em breve! 🦺</h2>
   </header>
   <main>
-    <video width="350px" height="350px" autoplay>
+    <video width="350px" height="350px" autoplay loop >
       <source src="assets/midia/vídeos/under_construction.mp4" type="video/mp4">
     </video>
   </main>
