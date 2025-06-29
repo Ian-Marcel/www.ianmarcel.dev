@@ -34,7 +34,7 @@ footer {
 	height: 10vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: top;
 }
 .footer-links {
 	width: 40vw;
