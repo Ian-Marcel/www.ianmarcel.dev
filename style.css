@@ -21,7 +21,7 @@ header h2 {
 }
 main {
 	width: 100vw;
-	height: 80vh;
+	height: 75vh;
 	display: grid;
 	justify-items: center;
 	align-items: center;
@@ -31,13 +31,13 @@ main img {
 }
 footer {
 	width: 100vw;
-	height: 10vh;
+	height: 15vh;
 	display: flex;
 	justify-content: center;
 	align-items: top;
 }
 .footer-links {
-	width: 40vw;
+	width: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -45,7 +45,7 @@ footer {
 	color: #f9f9f9;
 }
 .links {
-	width: 40vw;
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 }
