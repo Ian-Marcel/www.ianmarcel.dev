@@ -1,14 +1,17 @@
 /* CSS */
 /* IMPORTS */
-@import url("assets/css/basic structure.css");
-@import url("assets/css/pallets.css");
+@import url("assets/cssGlobal/basic_structure.css");	/* Required */
+@import url("assets/cssGlobal/fonts_db.css");			/* Required */
+
+@import url("assets/cssGlobal/pallets.css");			/* Optional */
 
 /* YOUR CSS */
 :root { 
 	color-scheme: light dark;
 }
 body {
-	background-color: light-dark(#F5F5F5, #0C0C0C)
+	background-color: light-dark(#F5F5F5, #0C0C0C);
+	font-family: InterVariable, sans-serif;
 }
 
 header {
