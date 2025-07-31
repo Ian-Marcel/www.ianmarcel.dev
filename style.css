@@ -4,8 +4,11 @@
 @import url("assets/css/pallets.css");
 
 /* YOUR CSS */
+:root { 
+	color-scheme: light dark;
+}
 body {
-	background-color: #0C0C0C;
+	background-color: light-dark(#F5F5F5, #0C0C0C)
 }
 
 header {
