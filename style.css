@@ -10,7 +10,7 @@
 }
 body {
 	background-color: light-dark(#F5F5F5, #0C0C0C);
-	font-family: InterVariable, sans-serif;
+	font-family: "InterVariable", sans-serif;
 }
 
 header {

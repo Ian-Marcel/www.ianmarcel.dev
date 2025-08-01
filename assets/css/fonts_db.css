@@ -1,11 +1,15 @@
 /* CSS */
 
 /* SANS-SERIF */
+/* font-family: "InterVariable", sans-serif; */
 @import url(../fonts/sans-serif/Inter/inter.css);
+/* font-family: "Satoshi-variable", sans-serif; */
 @import url(../fonts/sans-serif/Satoshi/css/satoshi.css);
 
 /* SERIF */
+/* font-family: "Karma-Variable", serif; */
 @import url(../fonts/serif/Karma_Complete/Fonts/WEB/css/karma.css);
 
 /* MONOSPACE */
+/* font-family: "JetBrainsMono-Variable", monospace; */
 @import url(../fonts/monospace/JetBrainsMono_Complete/Fonts/WEB/css/jet-brains-mono.css);
