@@ -1,8 +1,8 @@
 /* CSS */
 /* IMPORTS */
-@import url("assets/cssGlobal/basic_structure.css");	/* Required */
-@import url("assets/cssGlobal/fonts_db.css");			/* Required */
-@import url("assets/cssGlobal/pallets.css");			/* Optional */
+@import url("assets/css/basic_structure.css");	/* Required */
+@import url("assets/css/fonts_db.css");			/* Required */
+@import url("assets/css/pallets.css");			/* Optional */
 
 /* YOUR CSS */
 :root { 

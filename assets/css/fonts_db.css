@@ -1,0 +1,11 @@
+/* CSS */
+
+/* SANS-SERIF */
+@import url(../fonts/sans-serif/Inter/inter.css);
+@import url(../fonts/sans-serif/Satoshi/css/satoshi.css);
+
+/* SERIF */
+@import url(../fonts/serif/Karma_Complete/Fonts/WEB/css/karma.css);
+
+/* MONOSPACE */
+@import url(../fonts/monospace/JetBrainsMono_Complete/Fonts/WEB/css/jet-brains-mono.css);
