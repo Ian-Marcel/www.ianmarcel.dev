@@ -1,24 +1,44 @@
 /* BASIC STRUCTURE */
 /* CSS */
 * {
-    margin: 0%;
-	padding: 0%;
-	box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-:root {
-	height: 100vh;
-	line-height: 1.5;
-}
+:root { 
+  color-scheme: light dark;
+  --color-bg:       light-dark(#F5F5F5, #0C0C0C);
+  --color-text:     light-dark(#0C0C0C, #F5F5F5);
+  --color-primary:  light-dark(#FFA726, #FFB74D);   /* Vibrant orange accent */
+  --color-secondary:light-dark(#FFEB3B, #FFF176); /* Bright yellow accent */
+  --color-accent:   light-dark(#FF7043, #FFAB91);  /* Complementary highlight */
 
+  height: 100vh;
+  line-height: 1.5;
+}
+body, main, section {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+header, footer {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+button, a, .btn {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+/*
 a {
-	text-decoration: none;
-	color: #007AFF;
+text-decoration: none;
+color: #007AFF;
 }
 
 button {
-	border: none;
-	cursor: pointer;
-	transition: background-color 0.35;
-	padding: 10px 15px;
+border: none;
+cursor: pointer;
+transition: background-color 0.35;
+padding: 10px 15px;
 }
+ */

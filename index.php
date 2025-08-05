@@ -16,7 +16,7 @@
   <main>
     <img src="assets/midia/images/under_construction.gif" alt="builders">
   </main>
-  <footer>
+  <footer >
     <div class="footer-links">
       <h3>Visite meu:</h3>
       <div class="links">
