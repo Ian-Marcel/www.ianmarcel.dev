@@ -1,33 +1,41 @@
 /* BASIC STRUCTURE */
 /* CSS */
 * {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition:  background-color 0.6s, color 0.4s;
 }
 
-:root { 
-  color-scheme: light dark;
-  --color-bg:       light-dark(#F5F5F5, #0C0C0C);
-  --color-text:     light-dark(#0C0C0C, #F5F5F5);
-  --color-primary:  light-dark(#FFA726, #FFB74D);   /* Vibrant orange accent */
-  --color-secondary:light-dark(#FFEB3B, #FFF176); /* Bright yellow accent */
-  --color-accent:   light-dark(#FF7043, #FFAB91);  /* Complementary highlight */
+:root {
+    color-scheme: light dark;
+    --primary-bg: light-dark(#FCEF91, #6B240C);
+    --primary-tx: light-dark(#E6521F, #E48F45);
+    --secondary-bg: light-dark(#FB9E3A, #994D1C);
+    --secondary-tx: light-dark(#EA2F14, #F5CCA0);
 
-  height: 100vh;
-  line-height: 1.5;
+    --tertiary-bg: light-dark(#E6521F, #E48F45);
+    --tertiary-tx: light-dark(#FCEF91, #6B240C);
+    --quaternary-bg: light-dark(#EA2F14,#F5CCA0 );
+    --quaternary-tx: light-dark(#FB9E3A, #994D1C);
+
+    --link-tx: light-dark(#093FB4, #00CAFF);
+    --link-tx-sec: light-dark(#00CAFF, #093FB4);
+
+    height: 100vh;
+    line-height: 1.5;
 }
 body, main, section {
-  background-color: var(--color-bg);
-  color: var(--color-text);
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 header, footer {
-  background-color: var(--color-primary);
-  color: var(--color-text);
+    background-color: var(--color-primary);
+    color: var(--color-text);
 }
 button, a, .btn {
-  background-color: var(--color-secondary);
-  color: var(--color-text);
+    background-color: var(--color-secondary);
+    color: var(--color-text);
 }
 /*
 a {

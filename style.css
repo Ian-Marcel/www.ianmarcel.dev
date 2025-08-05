@@ -1,14 +1,23 @@
 /* CSS */
 /* IMPORTS */
-@import url("assets/css/basic_structure.css");	/* Required */
+@import url("assets/css/basic_structure.css");		/* Required */
 @import url("assets/css/fonts_db.css");			    /* Required */
 @import url("assets/css/pallets.css");			    /* Optional */
 
 /* YOUR CSS */
 
 :root {
-  font-family: "InterVariable", sans-serif;
+	font-family: "InterVariable", sans-serif;
 }
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-tx);
+    a {
+        color: var(--link-tx);
+    }
+}
+
 
 header {
 	display: flex;
@@ -34,6 +43,8 @@ main img {
 footer {
 	width: 100vw;
 	height: 15vh;
+    background-color: var(--secondary-bg);
+    color: var(--secondary-tx);
 	display: flex;
 	justify-content: center;
 	align-items: top;
@@ -44,7 +55,6 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	color: light-dark(#0C0C0C, #F5F5F5);
 }
 .links {
 	width: 100%;
