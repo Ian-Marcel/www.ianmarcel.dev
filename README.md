@@ -7,7 +7,7 @@
 A collection of my development projects showcasing...
 
 ## Tech Stack
-- React, TypeScript, Tailwind CSS, etc.
+- Simple PHP & CSS.
 
 ## Features
 - Interactive project gallery
