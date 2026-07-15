@@ -10,9 +10,7 @@ A collection of my development projects showcasing...
 - Simple PHP & CSS.
 
 ## Features
-- Interactive project gallery
-- Case studies with live demos
-- etc.
+- Nothing... YET!
 
 ## Live Demo
 [View my portfolio](https://ianmarcel.dev/)
